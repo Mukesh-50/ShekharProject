@@ -1,4 +1,4 @@
-package selenium.day3;
+package selenium.day4;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.firefox.FirefoxDriver;
