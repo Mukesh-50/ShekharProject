@@ -27,8 +27,7 @@ public class WaitDemo {
 		// What is the default polling in implicit wait and explicit wait
 		//Ans- 250 mili seconds
 	
-		FluentWait<FirefoxDriver> wait = new FluentWait<>(driver)
-			       .withTimeout(30, TimeUnit.SECONDS)
+		FluentWait<FirefoxDriver> wait = new FluentWait<>(driver).withTimeout(60, TimeUnit.SECONDS)
 			       .pollingEvery(5, TimeUnit.SECONDS)
 			       .ignoring(NoSuchElementException.class);
 
@@ -36,8 +35,22 @@ public class WaitDemo {
 		       {
 			     public WebElement apply(WebDriver driver) 
 			     {
-			    
-			     return	 driver.findElement(By.xpath("//a[text()='New Element3']"));
+			        int counter=0;
+			        WebElement ele=driver.findElement(By.xpath("//a[text()='New Element3']"));
+			    	 
+			        if(ele.isDisplayed())
+			        {
+			        	System.out.println(driver.findElement(By.xpath("//a[text()='New Element3']")).getTagName());
+			        	System.out.println("bro done");
+			         }
+			        else
+			        {
+			        	counter++;
+			        	System.out.println("Waiting "+counter);
+			        }
+			        System.out.println("Waiting "+counter);
+			    	 
+			        return ele;
 			     }
 			   });
 			   
