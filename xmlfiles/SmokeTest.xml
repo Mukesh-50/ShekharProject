@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CRM" parallel="none">
+
+  <test name="Q1">
+  
+    <classes>
+    
+     <class name="selenium.testng.day9.TestNGProg1"/>
+      
+      <class name="selenium.testng.day9.TestNGProg2"/>
+      
+      <class name="selenium.testng.day9.TestNGProg3"/>
+     
+      
+    </classes>
+    
+  </test>
+  
+ 
+ <test name="Q2">
+  
+    <classes>
+    
+     <class name="selenium.testng.day9.TestNGProg1"/>
+      
+      <class name="selenium.testng.day9.TestNGProg2"/>
+      
+      <class name="selenium.testng.day9.TestNGProg3"/>
+     
+      
+    </classes>
+    
+  </test>
+ 
+ 
+</suite> <!-- CRM -->

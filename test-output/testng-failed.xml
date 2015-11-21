@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="browser" value="IE"/>
+  <test name="Test(failed)" parallel="none">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="selenium.testng.day9.CrossBrowserTest">
+        <methods>
+          <include name="crossBrowserTesting"/>
+        </methods>
+      </class> <!-- selenium.testng.day9.CrossBrowserTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
