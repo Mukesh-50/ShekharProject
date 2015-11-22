@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" parallel="none">
-  <parameter name="browser" value="IE"/>
-  <test name="Test(failed)" parallel="none">
-    <parameter name="browser" value="IE"/>
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="selenium.testng.day9.CrossBrowserTest">
+      <class name="selenium.apachePOI.day10.WriteExcelData">
         <methods>
-          <include name="crossBrowserTesting"/>
+          <include name="readExcel"/>
         </methods>
-      </class> <!-- selenium.testng.day9.CrossBrowserTest -->
+      </class> <!-- selenium.apachePOI.day10.WriteExcelData -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

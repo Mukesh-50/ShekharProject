@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="selenium.testng.day8.ThirdTestNGClass">
+      <class name="selenium.apachePOI.day10.WriteExcelData">
         <methods>
-          <include name="testcase1"/>
+          <include name="readExcel"/>
         </methods>
-      </class> <!-- selenium.testng.day8.ThirdTestNGClass -->
+      </class> <!-- selenium.apachePOI.day10.WriteExcelData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

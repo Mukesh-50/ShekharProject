@@ -2,23 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="10756" started-at="2015-11-21T13:57:30Z" finished-at="2015-11-21T13:57:41Z">
+  <suite name="Default suite" duration-ms="3505" started-at="2015-11-22T03:53:34Z" finished-at="2015-11-22T03:53:37Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="10756" started-at="2015-11-21T13:57:30Z" finished-at="2015-11-21T13:57:41Z">
-      <class name="selenium.testng.day9.CrossBrowserTest">
-        <test-method status="PASS" signature="crossBrowserTesting(java.lang.String)[pri:0, instance:selenium.testng.day9.CrossBrowserTest@1c2c22f3]" name="crossBrowserTesting" duration-ms="10703" started-at="2015-11-21T19:27:30Z" finished-at="2015-11-21T19:27:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ie]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="3505" started-at="2015-11-22T03:53:34Z" finished-at="2015-11-22T03:53:37Z">
+      <class name="selenium.apachePOI.day10.WriteExcelData">
+        <test-method status="PASS" signature="readExcel()[pri:0, instance:selenium.apachePOI.day10.WriteExcelData@1ef7fe8e]" name="readExcel" duration-ms="3393" started-at="2015-11-22T09:23:34Z" finished-at="2015-11-22T09:23:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- crossBrowserTesting -->
-      </class> <!-- selenium.testng.day9.CrossBrowserTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- readExcel -->
+      </class> <!-- selenium.apachePOI.day10.WriteExcelData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
